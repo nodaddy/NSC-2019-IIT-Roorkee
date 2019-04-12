@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react'
-import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary, Grid} from '@material-ui/core';
+import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {NavLink} from "react-router-dom";
 
@@ -8,7 +8,7 @@ let st={
     textDecoration:'none',
 };
 
-export default class Side extends Component{
+export default class LeftNav extends Component{
     state={
         expanded:0
     };

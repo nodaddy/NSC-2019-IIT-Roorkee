@@ -1,4 +1,7 @@
-import Side from "./Side"
+import LeftNav from "./LeftNav"
+import RightNav from "./RightNav"
 import Header from "./Header"
+import Footer from "./Footer"
 import Carousel from "./Carousel"
-export {Side, Header, Carousel}
+
+export {LeftNav, RightNav, Header, Carousel,Footer}

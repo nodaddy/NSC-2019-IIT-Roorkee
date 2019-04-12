@@ -1,20 +1,29 @@
-import React,{Component} from 'react'
+import React, {Component} from 'react'
 import {Pic1, Pic2} from '../assets'
+import {Carousel as ReactCarousel} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 export default class Carousel extends Component {
     render() {
         return (
-            <Carousel>
+            <ReactCarousel
+                style={{height: '50vh',border:'1px solid antiquewhite'}}
+                autoPlay={true}
+                showArrows={false}
+                showStatus={false}
+                showThumbs={false}
+                showIndicators={false}
+                interval={2000}
+                infiniteLoop={true}
+            >
                 <div>
-                    <img src={Pic1} alt=""/>
-                    <p className="legend">Legend 1</p>
+                    <img style={{height: '50vh'}} src={Pic1} alt=""/>
                 </div>
                 <div>
-                    <img src={Pic2} alt=""/>
-                    <p className="legend">Legend 2</p>
+                    <img style={{height: '50vh'}} src={Pic2} alt=""/>
                 </div>
-
-            </Carousel>
+            </ReactCarousel>
         );
     }
 }
