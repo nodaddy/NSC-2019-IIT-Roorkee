@@ -1,2 +1,3 @@
-import Home from './Home'
-export {Home}
+import Layout from './Layout'
+
+export {Layout}

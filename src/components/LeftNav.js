@@ -1,7 +1,6 @@
 import React, {Component, Fragment} from 'react'
 import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {NavLink} from "react-router-dom";
 
 let st={
     color:'unset',
@@ -20,9 +19,11 @@ export default class LeftNav extends Component{
                         Call for Papers
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        Submit Abstract<br/>
-                        Submit Full Paper<br/>
-                        Submission Guidelines<br/>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Submit Abstract</a></li>
+                            <li><a href="comingsoon">Submit Full Paper</a></li>
+                            <li><a href="comingsoon">Submission Guidelines</a></li>
+                        </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===2} onChange={()=>{this.setState({expanded:this.state.expanded===2?0:2})}}>
@@ -30,9 +31,11 @@ export default class LeftNav extends Component{
                         Committee
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        Organising Committee<br/>
-                        Technical Committee<br/>
-                        National Advisory Committee<br/>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Organising Committee</a></li>
+                            <li><a href="comingsoon">Technical Committee</a></li>
+                            <li><a href="comingsoon">National Advisory Committee</a></li>
+                        </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===3} onChange={()=>{this.setState({expanded:this.state.expanded===3?0:3})}}>
@@ -40,7 +43,9 @@ export default class LeftNav extends Component{
                         Speakers
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        Show Speakers<br/>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Show Speakers</a></li>
+                        </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===4} onChange={()=>{this.setState({expanded:this.state.expanded===4?0:4})}}>
@@ -48,7 +53,9 @@ export default class LeftNav extends Component{
                         Guidelines
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        Registration Guidelines<br/>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Registration Guidelines</a></li>
+                        </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===5} onChange={()=>{this.setState({expanded:this.state.expanded===5?0:5})}}>
@@ -56,9 +63,11 @@ export default class LeftNav extends Component{
                         Downloads
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        Template for Full Paper<br/>
-                        Poster Format<br/>
-                        Format for PPT for Presentation<br/>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Template for Full Paper</a></li>
+                            <li><a href="comingsoon">Poster Format</a></li>
+                            <li><a href="comingsoon">Format for PPT for Presentation</a></li>
+                        </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===6} onChange={()=>{this.setState({expanded:this.state.expanded===6?0:6})}}>
@@ -66,17 +75,23 @@ export default class LeftNav extends Component{
                         Sponsorship
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        Sponsorship Details<br/>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Sponsorship Details</a></li>
+                        </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===7} onChange={()=>{this.setState({expanded:this.state.expanded===7?0:7})}}>
                     <ExpansionPanelSummary>
-                        <NavLink activeClassName="ye" style={st}>Accommodation</NavLink>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Accommodation</a></li>
+                        </ul>
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===8} onChange={()=>{this.setState({expanded:this.state.expanded===8?0:8})}}>
                     <ExpansionPanelSummary>
-                        <NavLink style={st}>Abstract Book</NavLink>
+                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
+                            <li><a href="comingsoon">Abstract Book</a></li>
+                        </ul>
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===9} onChange={()=>{this.setState({expanded:this.state.expanded===9?0:9})}}>
