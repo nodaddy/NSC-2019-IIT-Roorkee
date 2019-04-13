@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react'
 import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Grid from "@material-ui/core/Grid";
 
 let st={
     color:'unset',
@@ -14,13 +15,17 @@ export default class LeftNav extends Component{
     render(){
         return(
             <Fragment>
+                <Grid align="center" sm={12}>
+                    <a href="aboutus"><button> About</button></a>
+                </Grid>
+                <hr/>
                 <ExpansionPanel expanded={this.state.expanded===1} onChange={()=>{this.setState({expanded:this.state.expanded===1?0:1})}}>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                         Call for Papers
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Submit Abstract</a></li>
+                            <li><a href="submitAbstract">Submit Abstract</a></li>
                             <li><a href="comingsoon">Submit Full Paper</a></li>
                             <li><a href="comingsoon">Submission Guidelines</a></li>
                         </ul>
@@ -32,7 +37,7 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Organising Committee</a></li>
+                            <li><a href="organizingcommittee">Organising Committee</a></li>
                             <li><a href="comingsoon">Technical Committee</a></li>
                             <li><a href="comingsoon">National Advisory Committee</a></li>
                         </ul>
