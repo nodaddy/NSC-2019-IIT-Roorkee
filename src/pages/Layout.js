@@ -16,15 +16,15 @@ render(){
                         <LeftNav/>
                     </Grid>
                     <Grid sm={8} style={{paddingLeft:'2vh'}}>
-                        <BrowserRouter basename="/nsc2019">
+                        <BrowserRouter>
                             <Switch>
-                                <Route exact path='/' component={Home}/>
-                                <Route path='/submitAbstract' component={SubmitAbstract}/>
-                                <Route path='/comingsoon' component={ComingSoon}/>
-                                <Route path='/organizingcommittee' component={Organizing}/>
-                                <Route path='/nationaladvisory' component={NationalAdvisory}/>
-                                <Route path='/technicalcommittee' component={Technical}/>
-                                <Route path='/about' component={About}/>
+                                <Route exact path='/nsc2019/' component={Home}/>
+                                <Route path='/nsc2019/submitAbstract' component={SubmitAbstract}/>
+                                <Route path='/nsc2019/comingsoon' component={ComingSoon}/>
+                                <Route path='/nsc2019/organizingcommittee' component={Organizing}/>
+                                <Route path='/nsc2019/nationaladvisory' component={NationalAdvisory}/>
+                                <Route path='/nsc2019/technicalcommittee' component={Technical}/>
+                                <Route path='/nsc2019/about' component={About}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
                         </BrowserRouter>
