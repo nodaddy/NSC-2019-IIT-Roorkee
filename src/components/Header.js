@@ -18,7 +18,9 @@ export default class Header extends Component{
               <Grid sm={2} align="center">
                   <a href="http://sysi.org"> <img src={SSILogo} style={{width:'60%',marginTop:'4vh'}}/></a>
               </Grid>
-
+              <Grid sm={12}>
+                  <hr/>
+              </Grid>
           </Grid>
         );
     }

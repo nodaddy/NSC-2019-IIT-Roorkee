@@ -16,9 +16,9 @@ export default class LeftNav extends Component{
         return(
             <Fragment>
                 <Grid align="center" sm={12}>
-                    <a href="aboutus"><button> About</button></a>
+                    <a href="aboutus"><button style={{width:'100%'}}> About</button></a>
                 </Grid>
-                <hr/>
+
                 <ExpansionPanel expanded={this.state.expanded===1} onChange={()=>{this.setState({expanded:this.state.expanded===1?0:1})}}>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                         Call for Papers
@@ -38,8 +38,8 @@ export default class LeftNav extends Component{
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
                             <li><a href="organizingcommittee">Organising Committee</a></li>
-                            <li><a href="comingsoon">Technical Committee</a></li>
-                            <li><a href="comingsoon">National Advisory Committee</a></li>
+                            <li><a href="technicalcommittee">Technical Committee</a></li>
+                            <li><a href="nationaladvisory">National Advisory Committee</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>

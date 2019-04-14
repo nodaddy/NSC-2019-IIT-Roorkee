@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import {Footer, Header, LeftNav, RightNav} from '../components';
 import Grid from "@material-ui/core/Grid";
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import {ComingSoon, Home, NotFound,SubmitAbstract,Organizing} from "./content";
+import {ComingSoon, Home, NationalAdvisory, NotFound, Organizing, SubmitAbstract, Technical} from "./content";
 
 
 export default class Layout extends Component {
@@ -22,6 +22,8 @@ render(){
                                 <Route path='/submitAbstract' component={SubmitAbstract}/>
                                 <Route path='/comingsoon' component={ComingSoon}/>
                                 <Route path='/organizingcommittee' component={Organizing}/>
+                                <Route path='/nationaladvisory' component={NationalAdvisory}/>
+                                <Route path='/technicalcommittee' component={Technical}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
                         </BrowserRouter>
