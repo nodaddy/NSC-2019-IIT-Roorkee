@@ -16,7 +16,9 @@ export default class LeftNav extends Component{
         return(
             <Fragment>
                 <Grid align="center" sm={12}>
-                    <a href="aboutus"><button style={{width:'100%'}}> About</button></a>
+                    <a style={{textDecoration: 'none', padding: '2px'}} href="/">
+                        <button style={{width: '100%'}}> Home</button>
+                    </a>
                 </Grid>
 
                 <ExpansionPanel expanded={this.state.expanded===1} onChange={()=>{this.setState({expanded:this.state.expanded===1?0:1})}}>
@@ -25,9 +27,15 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="submitAbstract">Submit Abstract</a></li>
-                            <li><a href="comingsoon">Submit Full Paper</a></li>
-                            <li><a href="comingsoon">Submission Guidelines</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="submitAbstract">Submit
+                                Abstract</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Submit Full
+                                Paper</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Submission
+                                Guidelines</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -37,9 +45,15 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="organizingcommittee">Organising Committee</a></li>
-                            <li><a href="technicalcommittee">Technical Committee</a></li>
-                            <li><a href="nationaladvisory">National Advisory Committee</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="organizingcommittee">Organising
+                                Committee</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="technicalcommittee">Technical
+                                Committee</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="nationaladvisory">National
+                                Advisory Committee</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -49,7 +63,9 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Show Speakers</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Show Speakers</a>
+                            </li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -59,7 +75,9 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Registration Guidelines</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Registration
+                                Guidelines</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -69,9 +87,15 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Template for Full Paper</a></li>
-                            <li><a href="comingsoon">Poster Format</a></li>
-                            <li><a href="comingsoon">Format for PPT for Presentation</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Template for Full
+                                Paper</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Poster Format</a>
+                            </li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Format for PPT for
+                                Presentation</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -81,22 +105,24 @@ export default class LeftNav extends Component{
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Sponsorship Details</a></li>
+                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
+                                style={{textDecoration: 'none', padding: '2px',}} href="comingsoon">Sponsorship
+                                Details</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===7} onChange={()=>{this.setState({expanded:this.state.expanded===7?0:7})}}>
                     <ExpansionPanelSummary>
-                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Accommodation</a></li>
-                        </ul>
+
+                        <a style={{textDecoration: 'none', padding: '0px',}} href="comingsoon">Accommodation</a>
+
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===8} onChange={()=>{this.setState({expanded:this.state.expanded===8?0:8})}}>
                     <ExpansionPanelSummary>
-                        <ul style={{listStyle: 'none', paddingLeft: 0}}>
-                            <li><a href="comingsoon">Abstract Book</a></li>
-                        </ul>
+
+                        <a style={{textDecoration: 'none', padding: '0px',}} href="comingsoon">Abstract Book</a>
+
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===9} onChange={()=>{this.setState({expanded:this.state.expanded===9?0:9})}}>

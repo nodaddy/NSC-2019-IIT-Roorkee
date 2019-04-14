@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import {Carousel, Organizing} from '../../components';
+import {Carousel} from '../../components';
 
 
 export default class Home extends Component {
@@ -8,7 +8,7 @@ export default class Home extends Component {
             <Fragment>
                 <Carousel/>
                 <p style={{padding:'2vh'}}>
-                    <h5 style={{color:'blue',textShadow:'1px 1px green'}}>Call for Papers</h5>
+                    <h4 style={{color: 'blue'}}>Call for Papers</h4>
                     The 3 days national conference will have a keynote
                     address and invited talks from eminent
                     technologists/researchers working in various
@@ -37,7 +37,7 @@ export default class Home extends Component {
                     </ul>
                 </p>
                 <p>
-                    <h5 style={{color:'blue',textShadow:'1px 1px green'}}>National Systems Conference</h5>
+                    <h4 style={{color: 'navy'}}>National Systems Conference</h4>
                     NSC is an annual event of the Systems Society of
                     India (SSI) devoted to strengthening the systems
                     movement and its applications. The first NSC was

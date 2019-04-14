@@ -5,7 +5,7 @@ import {IITRLogo, SSILogo} from "../assets";
 export default class Header extends Component{
     render(){
         return(
-          <Grid container style={{marginBottom:'3vh'}}>
+            <Grid container style={{margin: '0vh', background: 'linear-gradient(lavender,white)'}}>
               <Grid sm={2} align="center">
                   <a href="http://www.iitr.ac.in"><img src={IITRLogo} style={{width:'60%',marginTop:'4vh'}}/></a>
               </Grid>
@@ -19,7 +19,7 @@ export default class Header extends Component{
                   <a href="http://sysi.org"> <img src={SSILogo} style={{width:'60%',marginTop:'4vh'}}/></a>
               </Grid>
               <Grid sm={12}>
-                  <hr/>
+
               </Grid>
           </Grid>
         );

@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react'
+import Grid from "@material-ui/core/Grid";
 
 let st={
     color:'unset',
@@ -12,6 +13,11 @@ export default class RightNav extends Component{
     render(){
         return(
             <Fragment>
+                <Grid align="center" sm={12}>
+                    <a href="about">
+                        <button style={{width: '100%'}}> About</button>
+                    </a>
+                </Grid>
                 <h4 style={{color:'blue',textShadow:'1px 1px green'}}>Important Deadlines</h4>
                 Submission of abstract:<br/> 30-07- 2019<br/><br/>
                 Notification of acceptance:<br/> 20-08- 2019<br/><br/>

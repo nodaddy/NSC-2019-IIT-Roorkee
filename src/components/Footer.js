@@ -4,7 +4,7 @@ export default class Footer extends Component{
     render(){
         return (
 
-               <div align="center" style={{color:'black',backgroundColor: 'lavender',padding:10}}>
+            <div align="center" style={{color: 'black', background: 'linear-gradient(silver,lavender)', padding: 10}}>
                    <h4 style={{color:'navy'}}>Address for correspondence</h4><br/>
                    <b>Dr. V Huzur Saran</b><br/>
                    Organising Secretary, NSC 2019<br/>

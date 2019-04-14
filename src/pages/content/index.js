@@ -4,7 +4,8 @@ import SubmitAbstract from './SubmitAbstract'
 import Organizing from './Organizing'
 import NationalAdvisory from './National'
 import Technical from './Technical'
+import About from './About'
 import _404 from './404'
 
 
-export {Home, ComingSoon, _404 as NotFound,SubmitAbstract,Organizing,NationalAdvisory,Technical}
+export {Home, ComingSoon, _404 as NotFound, SubmitAbstract, Organizing, NationalAdvisory, Technical, About}
