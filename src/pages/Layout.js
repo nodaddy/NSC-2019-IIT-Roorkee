@@ -19,12 +19,12 @@ render(){
                         <BrowserRouter>
                             <Switch>
                                 <Route exact path='/' component={Home}/>
-                                <Route path='/submitAbstract' component={SubmitAbstract}/>
-                                <Route path='/comingsoon' component={ComingSoon}/>
-                                <Route path='/organizingcommittee' component={Organizing}/>
-                                <Route path='/nationaladvisory' component={NationalAdvisory}/>
-                                <Route path='/technicalcommittee' component={Technical}/>
-                                <Route path='/about' component={About}/>
+                                <Route path='submitAbstract' component={SubmitAbstract}/>
+                                <Route path='comingsoon' component={ComingSoon}/>
+                                <Route path='organizingcommittee' component={Organizing}/>
+                                <Route path='nationaladvisory' component={NationalAdvisory}/>
+                                <Route path='technicalcommittee' component={Technical}/>
+                                <Route path='about' component={About}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
                         </BrowserRouter>

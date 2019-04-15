@@ -16,7 +16,7 @@ export default class LeftNav extends Component{
         return(
             <Fragment>
                 <Grid align="center" sm={12}>
-                    <a style={{textDecoration: 'none', padding: '2px'}} href="/">
+                    <a style={{textDecoration: 'none', padding: '2px'}} href="https://iitr.ac.in/nsc2019">
                         <button style={{width: '100%'}}> Home</button>
                     </a>
                 </Grid>
