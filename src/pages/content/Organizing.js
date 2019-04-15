@@ -26,26 +26,78 @@ export default class Organizing extends Component{
 
                     <hr/>
 
-                    <h3>Members:</h3>
-                    Prof. B.K. Mishra<br/>
-                    <br/>
-                    Prof. R. S. Mulik<br/>
-                    <br/>
-                    Prof. I. V. Singh<br/>
-                    <br/>
-                    Prof. Akshay Dvivedi<br/>
-                    <br/>
-                    Prof. K. Murugesan<br/>
-                    <br/>
-                    Prof. P. M. Pathak<br/>
-                    <br/>
-                    Prof. Vishal Kumar<br/>
-                    <br/>
-                    Prof. Satish C Sharma<br/>
-                    <br/>
-                    Prof. P.K. Jha<br/>
-                    <br/>
-                    Prof. Shailesh Ganpule<br/>
+                    <p style={{padding: '0px'}}><b>Finance
+                        Chair</b>:<br/>
+                        Chairman: Prof. R.S. Mulik<br/>
+                    </p>
+
+
+                    <hr/>
+                    <p><b>Accommodation
+                        Chair</b>:<br/>
+                        Chairman: Prof. I. V. Singh<br/>
+                    </p>
+
+                    <hr/>
+
+
+                    <p style={{padding: '0px'}}>
+
+                        <b>Hospitality</b>: <br/>
+                        Chairman: Prof. Akshay Dvivedi<br/><br/>
+
+                        Prof. Varun Sharma<br/>
+                        Mr. Sandeep Kumar<br/>
+                        Mr. Botcha Appalanaidu<br/>
+                        Mr. Nitin Dixit <br/>
+                        Mr. Ramveer <br/>
+                        Mr. Rajendra Arya<br/>
+                    </p>
+
+
+                    <hr/>
+                    <p style={{padding: '0px'}}>
+                        <b>Technical
+                            Programs Chair</b>: <br/>
+                        Chairman: Prof. Prof. K. Murugesan<br/><br/>
+
+                        Prof K M Singh<br/> Prof Manish Mishra <br/>
+                        Mr Ratnadeep Nath<br/>
+                        Mr Satish Sahu <br/>
+                        Mr Rupesh Palange <br/>
+                        Mr Mahendra T K
+                    </p>
+                    <hr/>
+
+
+                    <p style={{}}>
+
+                        <b>Publications
+                            Chair(MIED)</b>: <br/>
+                        Chairman: Prof. P. M. Pathak<br/>
+                        Chairman: Prof. Vishal Kumar <br/><br/>
+                    </p>
+                    <hr/>
+
+                    <p style={{}}>
+                        <b>Registrations
+                            Chair</b>: <br/>
+                        Chairman: Prof. Satish C Sharma<br/><br/>
+
+                        Vineet Kumar<br/>
+                        Vivek Parmar <br/>
+                        Rajesh Govindan<br/>
+
+                    </p>
+
+                    <hr/>
+                    <p style={{}}>
+                        <b>Sponsorships
+                            Chair</b>: <br/>
+                        Chairman: Prof. P.K. Jha <br/><br/>
+
+                    </p>
+                    <hr/>
                 </div>
             </div>
         );
