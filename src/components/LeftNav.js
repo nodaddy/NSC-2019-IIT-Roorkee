@@ -119,14 +119,16 @@ export default class LeftNav extends Component{
                 <ExpansionPanel expanded={this.state.expanded===7} onChange={()=>{this.setState({expanded:this.state.expanded===7?0:7})}}>
                     <ExpansionPanelSummary>
 
-                        <a style={{textDecoration: 'none', padding: '0px',}} href="comingsoon">Accommodation</a>
+                        <a style={{textDecoration: 'none', padding: '0px',}}
+                           href={root + "comingsoon"}>Accommodation</a>
 
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
                 <ExpansionPanel expanded={this.state.expanded===8} onChange={()=>{this.setState({expanded:this.state.expanded===8?0:8})}}>
                     <ExpansionPanelSummary>
 
-                        <a style={{textDecoration: 'none', padding: '0px',}} href="comingsoon">Abstract Book</a>
+                        <a style={{textDecoration: 'none', padding: '0px',}} href={root + "comingsoon"}>Abstract
+                            Book</a>
 
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
