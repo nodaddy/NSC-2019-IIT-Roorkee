@@ -11,10 +11,11 @@ export default class RightNav extends Component{
         expanded:0
     };
     render(){
+        let root = "/";
         return(
             <Fragment>
                 <Grid align="center" sm={12}>
-                    <a href="about">
+                    <a href={ root + "about" }>
                         <button style={{width: '100%'}}> About</button>
                     </a>
                 </Grid>
