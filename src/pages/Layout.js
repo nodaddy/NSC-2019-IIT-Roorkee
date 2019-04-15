@@ -16,7 +16,7 @@ render(){
                         <LeftNav/>
                     </Grid>
                     <Grid sm={8} style={{paddingLeft:'2vh'}}>
-                        <BrowserRouter>
+                        <BrowserRouter basename="/nsc2019">
                             <Switch>
                                 <Route exact path='/' component={Home}/>
                                 <Route path='/submitAbstract' component={SubmitAbstract}/>
