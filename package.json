@@ -2,7 +2,6 @@
   "name": "nsc2019",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iitr.ac.in/nsc2019",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
