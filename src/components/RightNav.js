@@ -11,7 +11,7 @@ export default class RightNav extends Component{
         expanded:0
     };
     render(){
-        let root = "/";
+        let root = "/nsc2019/";
         return(
             <Fragment>
                 <Grid align="center" sm={12}>
