@@ -13,7 +13,7 @@ export default class LeftNav extends Component{
         expanded:0
     };
     render(){
-        let root = "/";
+        let root = "/nsc2019/";
         return(
             <Fragment>
 
