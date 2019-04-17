@@ -2,8 +2,18 @@ import React, {Component, Fragment} from 'react';
 import {Footer, Header, LeftNav, RightNav} from '../components';
 import Grid from "@material-ui/core/Grid";
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import {About, ComingSoon, Home, NationalAdvisory, NotFound, Organizing, SubmitAbstract, Technical} from "./content";
-
+import {
+    About,
+    ComingSoon,
+    FullPaper,
+    Home,
+    NationalAdvisory,
+    NotFound,
+    Organizing,
+    Sponsorship,
+    SubmitAbstract,
+    Technical
+} from "./content";
 
 export default class Layout extends Component {
 render(){
@@ -24,6 +34,8 @@ render(){
                                 <Route path='/organizingcommittee' component={Organizing}/>
                                 <Route path='/nationaladvisory' component={NationalAdvisory}/>
                                 <Route path='/technicalcommittee' component={Technical}/>
+                                <Route path='/fulllengthpaper' component={FullPaper}/>
+                                <Route path='/sponsorship' component={Sponsorship}/>
                                 <Route path='/about' component={About}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
