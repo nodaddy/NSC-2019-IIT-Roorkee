@@ -39,6 +39,8 @@ render(){
                                 <Route path='/about' component={About}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
+
+
                         </BrowserRouter>
                     </Grid>
                     <Grid sm={2} style={{paddingLeft:'2vh'}}>
