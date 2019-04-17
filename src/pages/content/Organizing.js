@@ -15,7 +15,7 @@ export default class Organizing extends Component{
 
                         <b>Patron</b>: Prof. A.K. Chaturvedi, Director, IIT, Roorkee<br/><br/>
 
-                        <b>Chairman</b>: Prof. B.K. Gandhi, Head of Department, MIED<br/><br/>
+                        <b>Convenor</b>: Prof. B.K. Gandhi, Head of Department, MIED<br/><br/>
                         <b>Organizing
                             Secretary</b>: Prof. V. Huzur Saran<br/><br/>
                         <b>Joint
