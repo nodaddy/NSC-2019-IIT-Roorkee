@@ -109,10 +109,7 @@ export default class LeftNav extends Component{
                                 style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Poster
                                 Format</a>
                             </li>
-                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Format for
-                                PPT for
-                                Presentation</a></li>
+
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
