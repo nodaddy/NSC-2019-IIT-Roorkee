@@ -18,7 +18,7 @@ export default class RightNav extends Component{
                 <Grid align="center" sm={12}>
 
                     <a href={ root + "about" }>
-                        <button style={{width: '100%'}}> About</button>
+                        <button style={{width: '100%', border: 0}}> About</button>
                     </a>
                 </Grid>
                 <h4 style={{color:'blue',textShadow:'1px 1px green'}}>Important Deadlines</h4>
