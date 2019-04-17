@@ -22,7 +22,7 @@ export default class Sponsorship extends Component {
                     backgroundColor: 'darkgreen',
                     color: 'white'
                 }}
-                   href="https://www.onlinesbi.com/prelogin/icollecthome.htm>corpID=365641" target="sponsorship">Click
+                   href="https://www.onlinesbi.com/prelogin/icollecthome.htm?corpID=365641" target="sponsorship">Click
                     Here</a><br/><br/>
 
                 <br/>
