@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react'
 import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Grid from "@material-ui/core/Grid";
+import {conferenceregistration, springerguide} from "../assets"
 
 let st={
     color:'unset',
@@ -16,12 +16,22 @@ export default class LeftNav extends Component{
         let root = "/nsc2019/";
         return(
             <Fragment>
-                <Grid align="center" sm={12}>
-                    <a style={{textDecoration: 'none', padding: '2px'}} href={root}>
-                        <button style={{width: '100%'}}> Home</button>
-                    </a>
-                </Grid>
 
+                    <a style={{textDecoration: 'none', padding: '2px'}} href={root}>
+                        <button style={{width: '100%', border: 0, marginBottom: '2vh'}}> Home</button>
+                    </a>
+                <a href={conferenceregistration} target="_registr"> <ExpansionPanel expanded={this.state.expanded === 7}
+                                                                                    onChange={() => {
+                                                                                        this.setState({expanded: this.state.expanded === 7 ? 0 : 7})
+                                                                                    }}
+                                                                                    style={{backgroundColor: 'navy'}}>
+                    <ExpansionPanelSummary>
+
+                        <p style={{textDecoration: 'none', color: 'white', padding: '0px',}}>Registration</p>
+
+                    </ExpansionPanelSummary>
+                </ExpansionPanel>
+                </a>
                 <ExpansionPanel expanded={this.state.expanded===1} onChange={()=>{this.setState({expanded:this.state.expanded===1?0:1})}}>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                         Call for Papers
@@ -32,11 +42,13 @@ export default class LeftNav extends Component{
                                 style={{textDecoration: 'none', padding: '2px',}} href={root + "submitAbstract"}>Submit
                                 Abstract</a></li>
                             <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Submit Full
+                                style={{textDecoration: 'none', padding: '2px',}} href={root + "fulllengthpaper"}>Submit
+                                Full
                                 Paper</a></li>
                             <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Submission
-                                Guidelines</a></li>
+                                style={{textDecoration: 'none', padding: '2px',}} href={springerguide}
+                                target="springerguide">Springer
+                                Guidelines for authors</a></li>
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -111,7 +123,7 @@ export default class LeftNav extends Component{
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
                             <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Sponsorship
+                                style={{textDecoration: 'none', padding: '2px',}} href={root + "sponsorship"}>Sponsorship
                                 Details</a></li>
                         </ul>
                     </ExpansionPanelDetails>
@@ -147,6 +159,7 @@ export default class LeftNav extends Component{
                         Website: www.iitr.ac.in/nsc2019<br/>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
+
             </Fragment>
         );
     }

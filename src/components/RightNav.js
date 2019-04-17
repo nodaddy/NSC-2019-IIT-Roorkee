@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react'
 import Grid from "@material-ui/core/Grid";
+import {springerlogo} from "../assets";
 
 let st={
     color:'unset',
@@ -15,6 +16,7 @@ export default class RightNav extends Component{
         return(
             <Fragment>
                 <Grid align="center" sm={12}>
+
                     <a href={ root + "about" }>
                         <button style={{width: '100%'}}> About</button>
                     </a>
@@ -25,6 +27,7 @@ export default class RightNav extends Component{
                 Receipt of final paper:<br/> 20-09- 2019<br/><br/>
                 Final acceptance communication:<br/> 05-11- 2019<br/><br/>
                 Last date for registration:<br/> 20-11- 2019<br/><br/>
+                <img src={springerlogo} style={{width: '100%'}}/>
             </Fragment>
         );
     }
