@@ -7,6 +7,7 @@ import Technical from './Technical'
 import About from './About'
 import FullPaper from './FullPaper'
 import Sponsorship from './Sponsorship'
+import Acco from './acco'
 import _404 from './404'
 
 
@@ -20,5 +21,6 @@ export {
     Technical,
     About,
     FullPaper,
-    Sponsorship
+    Sponsorship,
+    Acco
 }

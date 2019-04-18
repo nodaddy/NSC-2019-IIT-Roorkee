@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {
     About,
+    Acco,
     ComingSoon,
     FullPaper,
     Home,
@@ -14,6 +15,7 @@ import {
     SubmitAbstract,
     Technical
 } from "./content";
+
 
 export default class Layout extends Component {
 render(){
@@ -37,6 +39,7 @@ render(){
                                 <Route path='/fulllengthpaper' component={FullPaper}/>
                                 <Route path='/sponsorship' component={Sponsorship}/>
                                 <Route path='/about' component={About}/>
+                                <Route path='/accomodation' component={Acco}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
 
