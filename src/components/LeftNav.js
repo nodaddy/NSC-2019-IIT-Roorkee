@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react'
 import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {conferenceregistration, springerguide} from "../assets"
+import {conferenceregistration, posterprep, springerguide} from "../assets"
 
 let st={
     color:'unset',
@@ -45,10 +45,7 @@ export default class LeftNav extends Component{
                                 style={{textDecoration: 'none', padding: '2px',}} href={root + "fulllengthpaper"}>Submit
                                 Full
                                 Paper</a></li>
-                            <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={springerguide}
-                                target="springerguide">Springer
-                                Guidelines for authors</a></li>
+
                         </ul>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -102,11 +99,12 @@ export default class LeftNav extends Component{
                     <ExpansionPanelDetails>
                         <ul style={{listStyle: 'none', paddingLeft: 0}}>
                             <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Template
+                                style={{textDecoration: 'none', padding: '2px',}} href={springerguide}
+                                target="springerguide">Template
                                 for Full
                                 Paper</a></li>
                             <li style={{marginBottom: '5px', border: '1px solid blue'}}><a
-                                style={{textDecoration: 'none', padding: '2px',}} href={root + "comingsoon"}>Poster
+                                style={{textDecoration: 'none', padding: '2px',}} href={posterprep} target="posterprep">Poster
                                 Format</a>
                             </li>
 
@@ -129,7 +127,7 @@ export default class LeftNav extends Component{
                     <ExpansionPanelSummary>
 
                         <a style={{textDecoration: 'none', padding: '0px',}}
-                           href={root + "comingsoon"}>Accommodation</a>
+                           href={root + "accomodation"}>Accommodation</a>
 
                     </ExpansionPanelSummary>
                 </ExpansionPanel>

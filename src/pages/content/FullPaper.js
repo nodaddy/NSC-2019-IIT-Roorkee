@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react'
+import {springerguide} from "../../assets";
 
 export default class FullPaper extends Component {
     render() {
@@ -8,8 +9,13 @@ export default class FullPaper extends Component {
                 For submission of full length paper you can log in easychair link given below. Full
                 manuscript has to be prepared in the prescribed format (maximum six pages) and
                 submitted for a peer review process latest by 20th September 2019.
-                <br/>
-
+                <br/><br/>
+                click
+                <a
+                    style={{textDecoration: 'none', padding: '2px',}} href={springerguide}
+                    target="springerguide"> here</a> for Springer
+                Guidelines for authors.
+                <br/><br/>
                 Papers are to be submitted in Pdf format. All submitted papers will be subjected to a
                 &quot;similarity test&quot; by Turnitin Software for selection purposes.<br/>
                 Authors are requested to submit full length paper online using the following weblink:<br/><br/>
