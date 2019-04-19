@@ -16,10 +16,11 @@ export default class LeftNav extends Component{
         let root = "/nsc2019/";
         return(
             <Fragment>
+            <a style={{textDecoration: 'none', padding: '2px'}} href={root}>
+            <button style={{width: '100%', border:'3px outset gold', marginBottom: '2vh'}}> <b>Home</b></button>
+        </a>
+            <div style={{fontSize:16}}>
 
-                    <a style={{textDecoration: 'none', padding: '2px'}} href={root}>
-                        <button style={{width: '100%', border: 0, marginBottom: '2vh'}}> Home</button>
-                    </a>
                 <a href={conferenceregistration} target="_registr"> <ExpansionPanel expanded={this.state.expanded === 7}
                                                                                     onChange={() => {
                                                                                         this.setState({expanded: this.state.expanded === 7 ? 0 : 7})
@@ -154,7 +155,7 @@ export default class LeftNav extends Component{
                         Website: www.iitr.ac.in/nsc2019<br/>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
-
+</div>
             </Fragment>
         );
     }

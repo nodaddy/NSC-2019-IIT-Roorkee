@@ -5,6 +5,7 @@ export default class Sponsorship extends Component {
     render() {
         return (
             <Fragment>
+            <div style={{fontSize:17}}>
                 <h2>Sponsorship</h2>
                 NSC 2019 is a three-day event hosted by Department of Mechanical and Industrial Engineering, IIT
                 Roorkee to be held on December 6th – 8th, 2019. The event will include oral and poster
@@ -27,21 +28,21 @@ export default class Sponsorship extends Component {
 
                 <br/>
                 <table align="center">
-                    <tr align="center" style={{border: '2px inset silver', fontSize: '2vh', color: 'navy'}}>
+                    <tr align="center" style={{border: '2px inset silver',color: 'navy'}}>
                         <th>Sponsorship Type</th>
                         <th>Company Logo on the conference Website</th>
                         <th>Colour advertisement of the sponsor/product in conference souvenir</th>
                         <th>Exhibit space</th>
                         <th>Complimentary Registration</th>
                     </tr>
-                    <tr style={{border: '2px inset silver', fontSize: '2vh'}}>
+                    <tr style={{border: '2px inset silver'}}>
                         <th>PLATINUM<br/>(2 Lacs)</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>02</th>
                         <th>04</th>
                     </tr>
-                    <tr style={{border: '2px inset silver', fontSize: '2vh'}}>
+                    <tr style={{border: '2px inset silver'}}>
                         <th>DIAMOND<br/>(1 Lacs)</th>
 
                         <th style={{color: 'green'}}>{icons.check}</th>
@@ -49,14 +50,14 @@ export default class Sponsorship extends Component {
                         <th>01</th>
                         <th>02</th>
                     </tr>
-                    <tr style={{border: '2px inset silver', fontSize: '2vh'}}>
+                    <tr style={{border: '2px inset silver'}}>
                         <th>GOLD<br/>(0.75 Lacs)</th>
                         <th style={{color: 'red'}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>01</th>
                         <th>01</th>
                     </tr>
-                    <tr style={{border: '2px inset silver', fontSize: '2vh'}}>
+                    <tr style={{border: '2px inset silver'}}>
                         <th>SILVER<br/>(0.5 Lacs)</th>
                         <th style={{color: 'red'}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
@@ -64,6 +65,7 @@ export default class Sponsorship extends Component {
                         <th>01</th>
                     </tr>
                 </table>
+            </div>
             </Fragment>
         );
     }

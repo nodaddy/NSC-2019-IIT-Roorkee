@@ -6,9 +6,12 @@ export default class Home extends Component {
     render() {
         return (
             <Fragment>
+            <div style={{border: '3px outset gold'}}>
                 <Carousel/>
+            </div>
                 <p style={{padding:'2vh'}}>
                     <h4 style={{color: 'blue'}}>Call for Papers</h4>
+                                                         <div style={{fontSize:18}}>
                     The 3 days national conference will have a keynote
                     address and invited talks from eminent
                     technologists/researchers working in various
@@ -35,8 +38,9 @@ export default class Home extends Component {
                         <li>Quantum and Nano systems</li>
                         <li> Emerging technologies</li>
                     </ul>
+            </div>
                 </p>
-                <p>
+        <div style={{fontSize:18}}>
                     <h4 style={{color: 'navy'}}>National Systems Conference</h4>
                     NSC is an annual event of the Systems Society of
                     India (SSI) devoted to strengthening the systems
@@ -50,7 +54,7 @@ export default class Home extends Component {
                     is being organized by organized by Department of
                     Mechanical &amp; Industrial Engineering, IIT Roorkee in
                     association with Systems Society of India.
-                </p>
+                </div>
             </Fragment>
         );
     }
