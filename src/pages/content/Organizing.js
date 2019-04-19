@@ -1,30 +1,51 @@
 import React, {Component} from 'react';
-
+import {ak,bk,vs,sp,ap} from '../../assets'
+import Grid from "@material-ui/core/Grid";
 export default class Organizing extends Component{
 
     render()
     {
         return(
-
-            <div >
+            <div style={{fontSize:17}}>
+            <div>
                 <h3 align="center" style={{color:'#132c68'}}>Organising committee</h3>
-                <div >
-                    <p>
+                <div>
+
 
                         <br/>
+<Grid container>
+        <Grid sm={12} align="center">
+        <b>Patron</b>:<br/>
+        <img src={ak} style={{width:100,border: '2px inset lavender'}}/><br/>
+                        Prof. A.K. Chaturvedi, <br/>Director, IIT Roorkee<br/><br/>
+        </Grid>
+</Grid>
+        <Grid container>
+        <Grid sm={3} align="center">
+        <b>Convenor</b>:<br/>
+        <img src={bk} style={{width:100,border: '2px inset lavender'}}/><br/>
+                         Prof. B.K. Gandhi,<br/>HMIED<br/><br/>
+        </Grid>
+    <Grid sm={3} align="center">
+       <b> Secretary</b>:<br/>
+        <img src={vs} style={{width:100,border: '2px inset lavender'}}/><br/>
+    Prof. V. Huzur Saran<br/><br/>
+    </Grid>
+    <Grid sm={3} align="center">
+       <b> Secretary</b>:<br/>
+        <img src={sp} style={{width:100,border: '2px inset lavender'}}/><br/>
+    Prof. S. P. Harsha<br/><br/>
+    </Grid>
+    <Grid sm={3} align="center">
+        <b>Secretary</b>:<br/>
+        <img src={ap} style={{width:100,border: '2px inset lavender'}}/><br/>
+    Prof. Avinash Parashar<br/>
+    </Grid>
 
-                        <b>Patron</b>: Prof. A.K. Chaturvedi, Director, IIT, Roorkee<br/><br/>
 
-                        <b>Convenor</b>: Prof. B.K. Gandhi, Head of Department, MIED<br/><br/>
-                        <b>Organizing
-                            Secretary</b>: Prof. V. Huzur Saran<br/><br/>
-                        <b>Joint
-                            Secretary</b>: Prof. S. P. Harsha<br/><br/>
-                        <b>Joint
-                            Secretary</b>: Prof. Avinash Parashar<br/>
-                    </p>
-
+</Grid>
                     <hr/>
+
 
                     <h3>Members:</h3>
                     Prof. B.K. Mishra<br/>
@@ -48,6 +69,7 @@ export default class Organizing extends Component{
                     Prof. Shailesh Ganpule<br/>
                 </div>
             </div>
+        </div>
         );
     }
 }

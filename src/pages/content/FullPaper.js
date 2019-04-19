@@ -5,6 +5,7 @@ export default class FullPaper extends Component {
     render() {
         return (
             <Fragment>
+            <div style={{fontSize:17}}>
                 <h2>Submit Full Length paper</h2>
                 For submission of full length paper you can log in easychair link given below. Full
                 manuscript has to be prepared in the prescribed format (maximum six pages) and
@@ -29,7 +30,7 @@ export default class FullPaper extends Component {
                    href="https://easychair.org/conferences/?conf=nsc2019" target="SubmitFullLength">Click
                     Here</a><br/><br/>
 
-
+</div>
             </Fragment>
         );
     }

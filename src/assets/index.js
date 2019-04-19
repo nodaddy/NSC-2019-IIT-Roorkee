@@ -6,5 +6,13 @@ import springerguide from "./Springer_Guidelines_for_Authors(1).pdf"
 import conferenceregistration from "./conferenceregistration_5fd38c92(1)_converted.pdf"
 import springerlogo from "./Springer (1).gif"
 import posterprep from "./POSTER PREPARATION.pdf"
+import DSC00242 from "./k.png"
+import top7 from "./top7.jpg"
+import top9 from "./top9.jpg"
+import ak from "./ak.png"
+import bk from "./bk.jpg"
+import vs from "./V-H-Saran.png"
+import sp from "./surajfme_Fm2yrH3.jpg"
+import ap from "./drap1fme_Odt1rO5.jpg"
 
-export {IITRLogo, SSILogo, Pic1, Pic2, springerguide, conferenceregistration, springerlogo, posterprep}
+export {IITRLogo, SSILogo, Pic1, Pic2, springerguide, conferenceregistration, springerlogo, posterprep,DSC00242,top7,top9,ak,bk,vs,sp,ap}

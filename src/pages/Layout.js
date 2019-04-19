@@ -21,8 +21,9 @@ export default class Layout extends Component {
 render(){
     return(
         <Fragment>
-            <div style={{paddingLeft: '1vh', paddingRight: '1vh'}}>
+            <div style={{}}>
                 <Header/>
+        <br/>
                 <Grid container>
                     <Grid sm={2}>
                         <LeftNav/>

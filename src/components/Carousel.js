@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Pic1, Pic2} from '../assets'
+import {Pic1, Pic2,top7,top9} from '../assets'
 import {Carousel as ReactCarousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -8,7 +8,7 @@ export default class Carousel extends Component {
     render() {
         return (
             <ReactCarousel
-                style={{height: '50vh',border:'1px solid antiquewhite'}}
+
                 autoPlay={true}
                 showArrows={false}
                 showStatus={false}
@@ -17,12 +17,20 @@ export default class Carousel extends Component {
                 interval={2000}
                 infiniteLoop={true}
             >
+
+                    <div >
+                    <img style={{height: '55vh'}} src={top9} alt=""/>
+            </div>
+                    <div >
+                    <img style={{height: '55vh'}} src={top7} alt=""/>
+            </div>
                 <div>
-                    <img style={{height: '50vh'}} src={Pic1} alt=""/>
+                    <img style={{height: '55vh'}} src={Pic1} alt=""/>
                 </div>
                 <div>
-                    <img style={{height: '50vh'}} src={Pic2} alt=""/>
+                    <img style={{height: '55vh'}} src={Pic2} alt=""/>
                 </div>
+
             </ReactCarousel>
         );
     }
