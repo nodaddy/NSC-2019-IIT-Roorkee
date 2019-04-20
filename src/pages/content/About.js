@@ -6,7 +6,7 @@ export default class About extends Component {
     render() {
         return (
             <Fragment>
-                <Grid container>
+                <Grid container style={{fontSize:16}}>
                     <Grid sm={12}>
 
                         <h4 style={{color: 'navy'}}>National Systems Conference</h4>
