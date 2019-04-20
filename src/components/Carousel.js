@@ -14,11 +14,14 @@ export default class Carousel extends Component {
                 showStatus={false}
                 showThumbs={false}
                 showIndicators={false}
-                interval={2000}
+                interval={3000}
                 infiniteLoop={true}
             >
 
                     <div >
+                    <img style={{height: '55vh'}} src={Pic2} alt=""/>
+            </div>
+            <div>
                     <img style={{height: '55vh'}} src={top9} alt=""/>
             </div>
                     <div >
@@ -27,9 +30,8 @@ export default class Carousel extends Component {
                 <div>
                     <img style={{height: '55vh'}} src={Pic1} alt=""/>
                 </div>
-                <div>
-                    <img style={{height: '55vh'}} src={Pic2} alt=""/>
-                </div>
+
+
 
             </ReactCarousel>
         );

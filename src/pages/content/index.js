@@ -8,6 +8,7 @@ import About from './About'
 import FullPaper from './FullPaper'
 import Sponsorship from './Sponsorship'
 import Acco from './acco'
+import themes from './themes'
 import _404 from './404'
 
 
@@ -22,5 +23,6 @@ export {
     About,
     FullPaper,
     Sponsorship,
-    Acco
+    Acco,
+    themes
 }

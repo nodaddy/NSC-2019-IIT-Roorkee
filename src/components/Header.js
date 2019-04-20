@@ -7,7 +7,7 @@ export default class Header extends Component{
 
 
         return(
-            <Grid container style={{margin: '0vh',backgroundImage: 'url('+DSC00242+')'}}>
+            <Grid container style={{marginBottom: 0,backgroundImage: 'url('+DSC00242+')',borderBottom:'3px solid gold'}}>
               <Grid sm={2} align="center">
                   <a href="http://www.iitr.ac.in"><img src={IITRLogo} style={{width:'60%',marginTop:'4vh'}}/></a>
               </Grid>
@@ -15,7 +15,7 @@ export default class Header extends Component{
                   <h1 style={{color:'navy',textShadow:'0px 0px black',fontFamily:'helvatica'}}><b>NSC 2019</b></h1>
                   <h3 style={{fontFamily:'helvatica'}}><b>43<sup>rd</sup> National Systems Conference on Innovative and Emerging trends in Engineering System</b></h3>
                   <h3 style={{color:'green',textShadow:' 1px 1px skyblue'}}>December 6<sup>th</sup> - 8<sup>th</sup>, 2019</h3>
-                 <h3 style={{color:'gold',textShadow:'1px 1px 1px black',fontFamily:'helvatica'}}><b> Department of Mechanical and Industrial Engineering, IIT Roorkee and Systems Society of India</b></h3>
+                 <h3 style={{color:'goldenrod',textShadow:'0px 0px 0px black',fontFamily:'helvatica'}}>Organized by:<b> Department of Mechanical and Industrial Engineering, IIT Roorkee in association with Systems Society of India</b></h3>
               </Grid>
               <Grid sm={2} align="center">
                   <a href="http://sysi.org"> <img src={SSILogo} style={{width:'60%',marginTop:'4vh'}}/></a>

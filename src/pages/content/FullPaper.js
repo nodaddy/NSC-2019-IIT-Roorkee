@@ -11,7 +11,7 @@ export default class FullPaper extends Component {
                 manuscript has to be prepared in the prescribed format (maximum six pages) and
                 submitted for a peer review process latest by 20th September 2019.
                 <br/><br/>
-                click
+                Click
                 <a
                     style={{textDecoration: 'none', padding: '2px',}} href={springerguide}
                     target="springerguide"> here</a> for Springer

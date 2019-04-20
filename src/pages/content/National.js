@@ -18,7 +18,7 @@ export default class NationalAdvisory extends Component{
     </tr>
     <tr style={{border: '3px inset silver', fontSize: '2.7vh', fontWeight: 500}}>
         <th>  Prof. Kshitij Gupta</th>
-        <th style={{paddingLeft: '10vh'}}> IIT Delh<br/></th>
+        <th style={{paddingLeft: '10vh'}}> IIT Delhi<br/></th>
     </tr>
     <tr style={{border: '3px inset silver', fontSize: '2.7vh', fontWeight: 500}}>
         <th>  Prof. Mats Berg</th>
@@ -39,13 +39,13 @@ export default class NationalAdvisory extends Component{
         <th style={{paddingLeft: '10vh'}}>IIT Delhi<br/></th>
     </tr>
     <tr style={{border: '3px inset silver', fontSize: '2.7vh', fontWeight: 500}}>
-        <th>  Prof. P.K. Jain,</th>
+        <th>  Prof. P.K. Jain</th>
         <th style={{paddingLeft: '10vh'}}> IIT BHU<br/></th>
     </tr>
 
     <tr style={{border: '3px inset silver', fontSize: '2.7vh', fontWeight: 500}}>
         <th>  Prof. S.P. Gupta</th>
-        <th style={{paddingLeft: '10vh'}}> COER, Roorkee<br/></th>
+        <th style={{paddingLeft: '10vh'}}> IIT Roorkee(Ex-faculty)<br/></th>
     </tr>
 
     <tr style={{border: '3px inset silver', fontSize: '2.7vh', fontWeight: 500}}>
@@ -54,7 +54,7 @@ export default class NationalAdvisory extends Component{
     </tr>
     <tr style={{border: '3px inset silver', fontSize: '2.7vh', fontWeight: 500}}>
         <th>  Prof. V. Murty</th>
-        <th style={{paddingLeft: '10vh'}}>University of Portland, Portland<br/></th>
+        <th style={{paddingLeft: '10vh'}}>University of Portland, U.S.A.<br/></th>
     </tr>
 </table>
                 </div>

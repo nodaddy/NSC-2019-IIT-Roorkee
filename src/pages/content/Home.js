@@ -6,11 +6,11 @@ export default class Home extends Component {
     render() {
         return (
             <Fragment>
-            <div style={{border: '3px outset gold'}}>
+            <div style={{border: '1px outset gold'}}>
                 <Carousel/>
             </div>
-                <p style={{padding:'2vh'}}>
-                    <h4 style={{color: 'blue'}}>Call for Papers</h4>
+
+                    <h4 style={{color: 'navy'}}><b>Call for Papers</b></h4>
                                                          <div style={{fontSize:18}}>
                     The 3 days national conference will have a keynote
                     address and invited talks from eminent
@@ -20,28 +20,11 @@ export default class Home extends Component {
                     academia, research institutions and government
                     organizations on both practical applications and
                     theoretical advancements in systems engineering.
-                    Some of the topics identified for the conference are
-                    as under (This is not an exhaustive list and papers are
-                    invited on other related topics as well)<br/><br/>
-                    <ul>
-                        <li> Computing systems</li>
-                        <li>Consciousness systems</li>
-                        <li>Electrical systems</li>
-                        <li>Energy systems</li>
-                        <li>General systems</li>
-                        <li>Literary and Social systems</li>
-                        <li>Machine learning systems</li>
-                        <li> Manufacturing systems</li>
-                        <li> Mechanical systems</li>
 
-                        <li>Multibody systems</li>
-                        <li>Quantum and Nano systems</li>
-                        <li> Emerging technologies</li>
-                    </ul>
             </div>
-                </p>
+
         <div style={{fontSize:18}}>
-                    <h4 style={{color: 'navy'}}>National Systems Conference</h4>
+                    <h4 style={{color: 'navy'}}><b>National Systems Conference</b></h4>
                     NSC is an annual event of the Systems Society of
                     India (SSI) devoted to strengthening the systems
                     movement and its applications. The first NSC was

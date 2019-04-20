@@ -5,7 +5,7 @@ export default class ComingSoon extends Component {
     render() {
         return (
             <Fragment>
-                To be published soon.
+                <b>Shall be updated soon</b>
             </Fragment>
         );
     }

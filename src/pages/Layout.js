@@ -13,7 +13,8 @@ import {
     Organizing,
     Sponsorship,
     SubmitAbstract,
-    Technical
+    Technical,
+    themes
 } from "./content";
 
 
@@ -23,8 +24,8 @@ render(){
         <Fragment>
             <div style={{}}>
                 <Header/>
-        <br/>
-                <Grid container>
+
+                <Grid container style={{background:'linear-gradient(skyblue,white,white,skyblue)',paddingBottom:10}}>
                     <Grid sm={2}>
                         <LeftNav/>
                     </Grid>
@@ -41,6 +42,7 @@ render(){
                                 <Route path='/sponsorship' component={Sponsorship}/>
                                 <Route path='/about' component={About}/>
                                 <Route path='/accomodation' component={Acco}/>
+                                <Route path='/themes' component={themes}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
 
