@@ -10,7 +10,7 @@ export default class SubmitAbstract extends Component{
                     government organizations on both practical applications and theoretical advancements in
                     systems engineering.
                     <br/><br/>
-        <div style={{fontSize:20,color:'darkred'}}>Last date for online submission of abstract is 30.07.2019</div><br/>
+
 
                     <span style={{color:'navy'}}>While submitting Abstract, the following format should be followed:</span>
                     <ul>
@@ -27,7 +27,7 @@ export default class SubmitAbstract extends Component{
         <a style={{border:'1px solid skyblue',padding:'10px',margin:0,backgroundColor: 'darkgreen',color:'white',textDecoration:'none'}}
         href="https://easychair.org/conferences/?conf=nsc2019" target="SubmitAbstract">Submit Abstract</a><br/><br/>
 </div>
-
+        <div style={{fontSize:20,color:'darkred'}}>Last date for online submission of abstract is 30.07.2019</div><br/>
 
 
             </Fragment>

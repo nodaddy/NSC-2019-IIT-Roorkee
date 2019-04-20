@@ -29,37 +29,37 @@ export default class Sponsorship extends Component {
                 <br/>
                 <table align="center">
                     <tr align="center" style={{border: '2px inset silver',color: 'navy'}}>
-                        <th>Sponsorship Type</th>
-                        <th>Company Logo on the conference Website</th>
+                        <th style={{paddingLeft:5}}>Sponsorship Type</th>
+                        <th style={{padding:10}}>Company Logo on the conference Website</th>
                         <th>Colour advertisement of the sponsor/product in conference souvenir</th>
                         <th>Exhibit space</th>
                         <th>Complimentary Registration</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th>PLATINUM<br/>(2 Lacs)</th>
-                        <th style={{color: 'green'}}>{icons.check}</th>
+                        <th style={{paddingLeft:5}}>PLATINUM<br/>(2 Lacs)</th>
+                        <th style={{color: 'green',paddingLeft:30}}>{icons.check}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>02</th>
                         <th>04</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th>DIAMOND<br/>(1 Lacs)</th>
+                        <th style={{paddingLeft:5}}>DIAMOND<br/>(1 Lacs)</th>
 
-                        <th style={{color: 'green'}}>{icons.check}</th>
+                        <th style={{color: 'green',paddingLeft:30}}>{icons.check}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>01</th>
                         <th>02</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th>GOLD<br/>(0.75 Lacs)</th>
-                        <th style={{color: 'red'}}>{icons.cross}</th>
+                        <th style={{paddingLeft:5}}>GOLD<br/>(0.75 Lacs)</th>
+                        <th style={{color: 'red',paddingLeft:30}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>01</th>
                         <th>01</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th>SILVER<br/>(0.5 Lacs)</th>
-                        <th style={{color: 'red'}}>{icons.cross}</th>
+                        <th style={{paddingLeft:5}}>SILVER<br/>(0.5 Lacs)</th>
+                        <th style={{color: 'red',paddingLeft:30}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th style={{color: 'red'}}>{icons.cross}</th>
                         <th>01</th>

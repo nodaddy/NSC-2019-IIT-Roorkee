@@ -1,7 +1,7 @@
 import IITRLogo from "./IITR_new_logo_color.png"
 import SSILogo from "./ssi-logo.png"
 import Pic1 from "./top1.jpg"
-import Pic2 from "./1300_400.JPG"
+import Pic2 from "./1300_400.jpg"
 import springerguide from "./Springer_Guidelines_for_Authors(1).pdf"
 import conferenceregistration from "./conferenceregistration_5fd38c92(1)_converted.pdf"
 import springerlogo from "./Springer (1).gif"
@@ -14,5 +14,6 @@ import bk from "./bk.jpg"
 import vs from "./V-H-Saran.png"
 import sp from "./surajfme_Fm2yrH3.jpg"
 import ap from "./drap1fme_Odt1rO5.jpg"
+import conferenceschedule from "./NSC 2019 schedule-converted.pdf"
 
-export {IITRLogo, SSILogo, Pic1, Pic2, springerguide, conferenceregistration, springerlogo, posterprep,DSC00242,top7,top9,ak,bk,vs,sp,ap}
+export {IITRLogo, SSILogo, Pic1, Pic2, springerguide, conferenceregistration, springerlogo, posterprep,DSC00242,top7,top9,ak,bk,vs,sp,ap,conferenceschedule}

@@ -15,13 +15,20 @@ export default class RightNav extends Component{
         let root = "/";
         return(
             <Fragment>
+            <div style={{fontSize:16}}>
                 <Grid align="center" sm={12}>
 
                     <a href={ root + "about" }>
-                        <button style={{width: '100%', border:'3px outset gold'}}><b> About</b></button>
+                        <button style={{width: '100%', border:'3px outset goldenrod'}}><b> About</b></button>
                     </a>
                 </Grid>
-                <h4 style={{color:'blue',textShadow:'1px 1px green'}}>Important Deadlines</h4>
+            </div>
+        <div style={{fontSize:18}}>
+        <h4 style={{color:'blue',textShadow:'0px 0px green'}}>Important Dates</h4>
+
+         Start of abstract submission:<br/> 30-05-2019<br/><br/>
+        </div>
+                <h4 style={{color:'blue',textShadow:'0px 0px green'}}>Important Deadlines</h4>
     <div style={{fontSize:18}}>
                 Submission of abstract:<br/> 30-07- 2019<br/><br/>
                 Notification of acceptance:<br/> 20-08- 2019<br/><br/>
