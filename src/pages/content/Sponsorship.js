@@ -37,14 +37,14 @@ export default class Sponsorship extends Component {
                         <th>Complimentary registration</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th style={{paddingLeft:5}}>PLATINUM<br/>(2 Lacs)</th>
+                        <th style={{paddingLeft:5}}>PLATINUM<br/>( &#x20b9; 2 Lacs)</th>
                         <th style={{color: 'green',paddingLeft:30}}>{icons.check}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>02</th>
                         <th>04</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th style={{paddingLeft:5}}>DIAMOND<br/>(<i>&#xf156;</i>1 Lacs)</th>
+                        <th style={{paddingLeft:5}}>DIAMOND<br/>( &#x20b9; 1 Lacs)</th>
 
                         <th style={{color: 'green',paddingLeft:30}}>{icons.check}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
@@ -52,14 +52,14 @@ export default class Sponsorship extends Component {
                         <th>02</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th style={{paddingLeft:5}}>GOLD<br/>(0.75 Lacs)</th>
+                        <th style={{paddingLeft:5}}>GOLD<br/>( &#x20b9; 0.75 Lacs)</th>
                         <th style={{color: 'red',paddingLeft:30}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>01</th>
                         <th>01</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th style={{paddingLeft:5}}>SILVER<br/>(0.5 Lacs)</th>
+                        <th style={{paddingLeft:5}}>SILVER<br/>( &#x20b9; 0.5 Lacs)</th>
                         <th style={{color: 'red',paddingLeft:30}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th style={{color: 'red'}}>{icons.cross}</th>
