@@ -12,10 +12,10 @@ export default class Home extends Component {
 
                     <h4 style={{color: 'navy'}}><b>Call for Papers</b></h4>
                                                          <div style={{fontSize:18}}>
-                    The 3 days national conference will have a keynote
+                    The 3-day national conference will have a keynote
                     address and invited talks from eminent
-                    technologists/researchers working in various
-                    domains of system engineering.
+                    technocrats and researchers working in various
+                    domains of systems engineering.
                     NSC-2019 seeks high quality papers from industry,
                     academia, research institutions and government
                     organizations on both practical applications and
@@ -33,8 +33,8 @@ export default class Home extends Component {
                     designers, builders and operation managers. NSC
                     provides a forum for sharing knowledge and
                     disseminating research findings.
-                    This year, the 43 rd National Systems Conference (NSC)
-                    is being organized by organized by Department of
+                    This year, the 43 <sup>rd</sup> National Systems Conference (NSC)
+                    is being organized by Department of
                     Mechanical &amp; Industrial Engineering, IIT Roorkee in
                     association with Systems Society of India.
                 </div>

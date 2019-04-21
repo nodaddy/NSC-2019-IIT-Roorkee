@@ -12,12 +12,13 @@ export default class SubmitAbstract extends Component{
                     <br/><br/>
 
 
-                    <span style={{color:'navy'}}>While submitting Abstract, the following format should be followed:</span>
+                    <span style={{color:'navy'}}>While submitting abstract, the following format should be followed:</span>
                     <ul>
-                        <li> One paragraph abstract in Times New Roman 10 point size should not exceed 250 words.</li>
+                        <li> Abstract should be neatly typed in 1.5 spacing in Times New Roman 10 font size and should not exceed 250 words</li>
                         <li> Title of the abstract should be bold Times New Roman 12 point size.</li>
-                        <li> Authors&#39; names [(Last) name first, like &quot;Singh, Amit&quot;]</li>
-                        <li> Authors’ affiliation and corresponding authors contact details should be clearly stated.
+       
+                        <li> Authors' name should be written surname first followed by the first name e.g. 'Sharma Sunil'</li>
+                        <li> Authors&#39; affiliation and corresponding authors contact details should be clearly stated.
                         </li>
                         <li> References or key words should not be included with abstract.</li>
 

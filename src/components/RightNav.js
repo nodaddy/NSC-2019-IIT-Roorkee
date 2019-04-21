@@ -23,13 +23,10 @@ export default class RightNav extends Component{
                     </a>
                 </Grid>
             </div>
-        <div style={{fontSize:18}}>
-        <h4 style={{color:'blue',textShadow:'0px 0px green'}}>Important Dates</h4>
 
-         Start of abstract submission:<br/> 30-05-2019<br/><br/>
-        </div>
                 <h4 style={{color:'blue',textShadow:'0px 0px green'}}>Important Deadlines</h4>
     <div style={{fontSize:18}}>
+
                 Submission of abstract:<br/> 30-07- 2019<br/><br/>
                 Notification of acceptance:<br/> 20-08- 2019<br/><br/>
                 Receipt of final paper:<br/> 20-09- 2019<br/><br/>

@@ -6,6 +6,7 @@ export default class Sponsorship extends Component {
         return (
             <Fragment>
             <div style={{fontSize:17}}>
+        {}
                 <h2>Sponsorship</h2>
                 NSC 2019 is a three-day event hosted by Department of Mechanical and Industrial Engineering, IIT
                 Roorkee to be held on December 6th – 8th, 2019. The event will include oral and poster
@@ -13,9 +14,9 @@ export default class Sponsorship extends Component {
                 panel discussions are also included in the program schedule of the conference.
                 <br/><br/>
                 Sponsors are invited to highlight their products and services to the delegates through this
-                Conference. Various opportunities for association are available as per sponsorship details given
-                below. You can book the Sponsorship type by making advance payment through State Bank of India
-                Portal through the weblink provided below<br/><br/>
+                conference. Various opportunities for association are available as per sponsorship details given
+                below. You can book the sponsorship type by making advance payment through State Bank of India
+                portal through the weblink provided below:<br/><br/>
                 <a style={{
                     border: '1px solid skyblue',
                     padding: '10px',
@@ -29,11 +30,11 @@ export default class Sponsorship extends Component {
                 <br/>
                 <table align="center">
                     <tr align="center" style={{border: '2px inset silver',color: 'navy'}}>
-                        <th style={{paddingLeft:5}}>Sponsorship Type</th>
-                        <th style={{padding:10}}>Company Logo on the conference Website</th>
+                        <th style={{paddingLeft:5}}>Sponsorship type</th>
+                        <th style={{padding:10}}>Company logo on the conference website</th>
                         <th>Colour advertisement of the sponsor/product in conference souvenir</th>
                         <th>Exhibit space</th>
-                        <th>Complimentary Registration</th>
+                        <th>Complimentary registration</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
                         <th style={{paddingLeft:5}}>PLATINUM<br/>(2 Lacs)</th>
@@ -43,7 +44,7 @@ export default class Sponsorship extends Component {
                         <th>04</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th style={{paddingLeft:5}}>DIAMOND<br/>(1 Lacs)</th>
+                        <th style={{paddingLeft:5}}>DIAMOND<br/>(<i>&#xf156;</i>1 Lacs)</th>
 
                         <th style={{color: 'green',paddingLeft:30}}>{icons.check}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>

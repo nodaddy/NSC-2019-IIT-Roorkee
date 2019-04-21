@@ -5,12 +5,21 @@ export default class Acco extends Component {
         return (
             <Fragment>
             <div style={{fontSize:17}}>
-                <h2>Room Booking</h2>
-                Limited rooms are available for booking in the various Guest houses of
-                the Institute @ Rs. 1000/- per day and student hostels @ Rs. 300/- per
-                day on requisition.<br/>
-                Accommodation in various hotels is also available in neighborhood of
-                the campus.
+                <h2>Accomadation</h2>
+                Limited accomodation is available to delegates in the various guest houses on the campus with tariff of Rs. 1000/- per day.
+        <br/> Students will be accomodated in hostels at nominal tariffs on requisition.<br/><br/>
+              Besides on campus accomodation, delegates can also make their own arrangements in nearby hotels. Some selected hotels in the close proximity to the institute are
+            as follows:
+
+            <ul>
+            <li><h4>Motel Polaris (0.0 km)</h4></li>
+        <li><h4>Hotel Center Point(1.0 km)</h4></li>
+        <li><h4>Hotel Prakash(1.0 km)</h4></li>
+        <li><h4>Hotel Centrum(3.5 km)</h4></li>
+        <li><h4>Hotel All Seasons(3.5 km)</h4></li>
+        <li><h4>Hotel Godavari(6.2 km)</h4></li>
+
+            </ul>
 </div>
             </Fragment>
         );

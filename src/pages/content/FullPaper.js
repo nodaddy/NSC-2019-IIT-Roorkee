@@ -14,11 +14,11 @@ export default class FullPaper extends Component {
                 Click
                 <a
                     style={{textDecoration: 'none', padding: '2px',}} href={springerguide}
-                    target="springerguide"> here</a> for Springer
-                Guidelines for authors.
+                    target="springerguide"> here</a> for
+                guidelines for authors.
                 <br/><br/>
                 Papers are to be submitted in Pdf format. All submitted papers will be subjected to a
-                &quot;similarity test&quot; by Turnitin Software for selection purposes.<br/>
+                &quot;similarity test&quot; by Turnitin software for selection purposes.<br/>
                 Authors are requested to submit full length paper online using the following weblink:<br/><br/>
                 <a style={{
                     border: '1px solid skyblue',

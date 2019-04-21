@@ -158,17 +158,7 @@ export default class LeftNav extends Component{
 
                     </ExpansionPanelSummary>
                 </ExpansionPanel>
-                <ExpansionPanel expanded={this.state.expanded===9} onChange={()=>{this.setState({expanded:this.state.expanded===9?0:9})}}>
-                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                        Contact
-                    </ExpansionPanelSummary>
-                    <ExpansionPanelDetails>
 
-                      Email:<br/> nscr2019@gmail.com,<br/>nsc2019@iitr.ac.in<br/><br/>
-                        Website address: <br/> www.iitr.ac.in/nsc2019<br/><br/>
-             For further details, see footer of the website
-        </ExpansionPanelDetails>
-                </ExpansionPanel>
 </div>
             </Fragment>
         );
