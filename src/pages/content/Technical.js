@@ -38,7 +38,7 @@ export default class Technical extends Component{
                     </tr>
                     <tr style={{border: '3px inset silver', fontSize: '2.7vh'}}>
                         <th> Prof. B. Ravindra</th>
-                        <th style={{paddingLeft: '10vh'}}> IIT Indore <br/></th>
+                        <th style={{paddingLeft: '10vh'}}> IIT Jodhpur <br/></th>
                     </tr>
                     <tr style={{border: '3px inset silver', fontSize: '2.7vh'}}>
                         <th> Prof. S.K. Dwivedy</th>
@@ -57,15 +57,15 @@ export default class Technical extends Component{
                         <th style={{paddingLeft: '10vh'}}> IIT Delhi <br/></th>
                     </tr>
                     <tr style={{border: '3px inset silver', fontSize: '2.7vh'}}>
-                        <th> Dr. Manoj Pandey</th>
+                        <th> Prof. Manoj Pandey</th>
                         <th style={{paddingLeft: '10vh'}}> IIT Madras <br/></th>
                     </tr>
                     <tr style={{border: '3px inset silver', fontSize: '2.7vh'}}>
-                        <th> Dr. Arvind Pattamatta</th>
+                        <th> Prof. Arvind Pattamatta</th>
                         <th style={{paddingLeft: '10vh'}}> IIT Madras <br/></th>
                     </tr>
                     <tr style={{border: '3px inset silver', fontSize: '2.7vh'}}>
-                        <th> Dr. Deepu Philip</th>
+                        <th> Prof. Deepu Philip</th>
                         <th style={{paddingLeft: '10vh'}}> IIT Kanpur <br/></th>
                     </tr>
                     <tr style={{border: '3px inset silver', fontSize: '2.7vh'}}>

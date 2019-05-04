@@ -15,7 +15,7 @@ export default class Header extends Component{
                   <h1 style={{color:'navy',textShadow:'0px 0px black',fontFamily:'helvatica'}}><b>NSC 2019</b></h1>
                   <h4 style={{fontFamily:'helvatica'}}><b>43<sup>rd</sup> National Systems Conference on Innovative and Emerging Trends in Engineering Systems</b></h4>
                   <h3 style={{color:'green',textShadow:' 1px 1px skyblue'}}>December 6<sup>th</sup> - 8<sup>th</sup>, 2019</h3>
-                 <h3 style={{color:'goldenrod',textShadow:'0px 0px 0px black',fontFamily:'helvatica'}}> <b>Organised by Department of Mechanical and Industrial Engineering, IIT Roorkee <br/>in association with Systems Society of India</b></h3>
+                 <h3 style={{color:'goldenrod', fontFamily:'Times New Roman'}}> <i>Organised by</i> <b> Department of Mechanical and Industrial Engineering, IIT Roorkee </b><br/><i>in association with</i><b> Systems Society of India</b></h3>
               </Grid>
               <Grid sm={2} align="center">
                   <a href="http://sysi.org"> <img src={SSILogo} style={{width:'60%',marginTop:'4vh'}}/></a>

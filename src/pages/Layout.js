@@ -14,7 +14,9 @@ import {
     Sponsorship,
     SubmitAbstract,
     Technical,
-    themes
+    themes,
+    Registration,
+    Venue
 } from "./content";
 
 
@@ -43,6 +45,8 @@ render(){
                                 <Route path='/about' component={About}/>
                                 <Route path='/accomodation' component={Acco}/>
                                 <Route path='/themes' component={themes}/>
+                                <Route path='/Registration' component={Registration}/>
+                                <Route path='/venue' component={Venue}/>
                                 <Route path='*' component={NotFound}/>
                             </Switch>
 

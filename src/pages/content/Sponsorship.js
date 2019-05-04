@@ -7,7 +7,7 @@ export default class Sponsorship extends Component {
             <Fragment>
             <div style={{fontSize:17}}>
         {}
-                <h2>Sponsorship</h2>
+                <h2 align="center">Sponsorship</h2>
                 NSC 2019 is a three-day event hosted by Department of Mechanical and Industrial Engineering, IIT
                 Roorkee to be held on December 6th – 8th, 2019. The event will include oral and poster
                 presentations of research papers grouped into parallel sessions. Keynote talks from experts and
@@ -16,8 +16,11 @@ export default class Sponsorship extends Component {
                 Sponsors are invited to highlight their products and services to the delegates through this
                 conference. Various opportunities for association are available as per sponsorship details given
                 below. You can book the sponsorship type by making advance payment through State Bank of India
-                portal through the weblink provided below:<br/><br/>
+                portal.<br/>
+                    <h4>The conference code is <b>CONFR-100-MID</b></h4>
+
                 <a style={{
+                    textDecoration:'none',
                     border: '1px solid skyblue',
                     padding: '10px',
                     margin: 0,
@@ -52,7 +55,7 @@ export default class Sponsorship extends Component {
                         <th>02</th>
                     </tr>
                     <tr style={{border: '2px inset silver'}}>
-                        <th style={{paddingLeft:5}}>GOLD<br/>( &#x20b9; 0.75 Lacs)</th>
+                        <th style={{paddingLeft:5}}>GOLD<br/>(&#x20b9;0.75 Lacs)</th>
                         <th style={{color: 'red',paddingLeft:30}}>{icons.cross}</th>
                         <th style={{color: 'green'}}>{icons.check}</th>
                         <th>01</th>

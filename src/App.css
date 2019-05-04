@@ -22,8 +22,10 @@ a {
 
 }
 a:hover{
-    color: darkgreen;
+    color: deepskyblue !important;
 }
 *{
     font-family: "times new roman";
 }
+
+/*.mapouter{position:relative;text-align:right;height:397px;width:'100%';}.gmap_canvas {overflow:hidden;background:none!important;height:397px;width:939px;}*/

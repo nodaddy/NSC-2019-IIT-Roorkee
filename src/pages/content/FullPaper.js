@@ -9,7 +9,7 @@ export default class FullPaper extends Component {
                 <h2>Submit Full Length paper</h2>
                 For submission of full length paper you can log in easychair link given below. Full
                 manuscript has to be prepared in the prescribed format (maximum six pages) and
-                submitted for a peer review process latest by 20th September 2019.
+                to be submitted for a peer review process latest by 20th September 2019.
                 <br/><br/>
                 Click
                 <a

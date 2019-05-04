@@ -11,8 +11,8 @@ export default class Home extends Component {
             </div>
 
                     <h4 style={{color: 'navy'}}><b>Call for Papers</b></h4>
-                                                         <div style={{fontSize:18}}>
-                    The 3-day national conference will have a keynote
+                                                         <div align="justify" style={{fontSize:18}}>
+                    The three day national conference will have a keynote
                     address and invited talks from eminent
                     technocrats and researchers working in various
                     domains of systems engineering.
@@ -23,7 +23,7 @@ export default class Home extends Component {
 
             </div>
 
-        <div style={{fontSize:18}}>
+        <div style={{fontSize:18}} align="justify">
                     <h4 style={{color: 'navy'}}><b>National Systems Conference</b></h4>
                     NSC is an annual event of the Systems Society of
                     India (SSI) devoted to strengthening the systems

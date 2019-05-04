@@ -10,7 +10,8 @@ import Sponsorship from './Sponsorship'
 import Acco from './acco'
 import themes from './themes'
 import _404 from './404'
-
+import Registration from './Registration'
+import Venue from './Venue'
 
 export {
     Home,
@@ -24,5 +25,7 @@ export {
     FullPaper,
     Sponsorship,
     Acco,
-    themes
+    themes,
+    Registration,
+    Venue
 }
