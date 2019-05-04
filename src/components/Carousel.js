@@ -1,5 +1,26 @@
 import React, {Component} from 'react'
-import {Pic1, Pic2,top7,top9} from '../assets'
+import {
+    carousel_01,
+    carousel_02,
+    carousel_03,
+    carousel_04,
+    carousel_05,
+    carousel_06,
+    carousel_07,
+    carousel_08,
+    carousel_09,
+    carousel_10,
+    carousel_11,
+    carousel_12,
+    carousel_13,
+    carousel_14,
+    carousel_15,
+    carousel_16,
+    carousel_17,
+    Pic1,
+    Pic2,
+    top9
+} from '../assets'
 import {Carousel as ReactCarousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -24,9 +45,57 @@ export default class Carousel extends Component {
             <div>
                     <img style={{height: '55vh'}} src={top9} alt=""/>
             </div>
-                    <div >
-                    <img style={{height: '55vh'}} src={top7} alt=""/>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_01} alt=""/>
             </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_02} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_03} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_04} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_05} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_06} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_07} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_08} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_09} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_10} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_11} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_12} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_13} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_14} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_15} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_16} alt=""/>
+                </div>
+                <div>
+                    <img style={{height: '55vh'}} src={carousel_17} alt=""/>
+                </div>
                 <div>
                     <img style={{height: '55vh'}} src={Pic1} alt=""/>
                 </div>
