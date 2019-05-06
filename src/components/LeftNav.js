@@ -84,7 +84,7 @@ export default class LeftNav extends Component{
         <a href={conferenceschedule}  target="schedule" style={{textDecoration:'none', color:'black'}}>             <ExpansionPanel expanded={this.state.expanded===7} onChange={()=>{this.setState({expanded:this.state.expanded===44?0:44})}}>
     <ExpansionPanelSummary>
 
-        Conference Schedule
+        Tentative Schedule
         </ExpansionPanelSummary>
         </ExpansionPanel></a>
 
