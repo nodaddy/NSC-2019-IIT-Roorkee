@@ -7,7 +7,7 @@ export default class Venue extends Component {
             <Fragment>
             <div style={{fontSize:17}}>
     <h2 align="center">Conference Venue</h2><br/>
-        <h3 align="center">Venue: Mechanical and Industrial Engineering Department, IIT Roorkee</h3>
+        <h3 align="center">Venue: Mechanical and Industrial Engineering Department(East block), IIT Roorkee</h3>
             <Grid container>
 
             <Grid sm={12}><img style={{width:'100%'}}src={Pic1}/></Grid>
