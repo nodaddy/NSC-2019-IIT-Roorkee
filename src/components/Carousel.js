@@ -1,11 +1,9 @@
 import React, {Component} from 'react'
 import {
     carousel_01,
-    carousel_02,
     carousel_03,
     carousel_04,
     carousel_05,
-    carousel_06,
     carousel_07,
     carousel_08,
     carousel_09,
@@ -13,7 +11,6 @@ import {
     carousel_11,
     carousel_12,
     carousel_13,
-    carousel_14,
     carousel_15,
     carousel_16,
     carousel_17,
@@ -49,9 +46,6 @@ export default class Carousel extends Component {
                     <img style={{height: '55vh'}} src={carousel_01} alt=""/>
             </div>
                 <div>
-                    <img style={{height: '55vh'}} src={carousel_02} alt=""/>
-                </div>
-                <div>
                     <img style={{height: '55vh'}} src={carousel_03} alt=""/>
                 </div>
                 <div>
@@ -59,9 +53,6 @@ export default class Carousel extends Component {
                 </div>
                 <div>
                     <img style={{height: '55vh'}} src={carousel_05} alt=""/>
-                </div>
-                <div>
-                    <img style={{height: '55vh'}} src={carousel_06} alt=""/>
                 </div>
                 <div>
                     <img style={{height: '55vh'}} src={carousel_07} alt=""/>
@@ -83,9 +74,6 @@ export default class Carousel extends Component {
                 </div>
                 <div>
                     <img style={{height: '55vh'}} src={carousel_13} alt=""/>
-                </div>
-                <div>
-                    <img style={{height: '55vh'}} src={carousel_14} alt=""/>
                 </div>
                 <div>
                     <img style={{height: '55vh'}} src={carousel_15} alt=""/>
