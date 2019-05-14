@@ -19,7 +19,8 @@ export default class Home extends Component {
                     NSC-2019 seeks high quality papers from industry,
                     academia, research institutions and government
                     organizations on both practical applications and
-                    theoretical advancements in systems engineering.
+                    theoretical advancements in systems engineering.<br/>
+            All accepted papers by registered authors will be published in the form of a book by Springer.
 
             </div>
 
