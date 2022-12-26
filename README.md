@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Worked with Prof. V. Huzur Saran at IIT Roorkee to create this website during organising the annual National Systems Conference.
 
 ## Available Scripts
 
